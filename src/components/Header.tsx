@@ -60,7 +60,7 @@ export function MarqueeBar() {
   return (
     <div className="bg-[#000080] text-yellow-300 py-1.5 text-[14px] font-bold overflow-hidden whitespace-nowrap" style={{ border: "2px ridge #808080" }}>
       <span className="marquee-scroll">
-        ★★★ [긴급공지] 보안프로그램을 반드시 업데이트해 주세요! ★★★ 이체한도 변경시 영업점 방문 필수 ★★★ 전자금융사기 주의보 발령 ★★★ 개인정보 유효기간제 시행 안내 ★★★ 보안 인증서 갱신 안내 ★★★
+        ★★★ [긴급공지] 보안프로그램을 반드시 업데이트해 주세요! ★★★ 이체한도 변경시 영업점 방문 필수 ★★★ 전자금융사기 주의보 발령 ★★★ 개인정보 유효기간제 시행 안내 ★★★ OpenRouter API 키 갱신 안내 ★★★
       </span>
     </div>
   );
@@ -105,7 +105,7 @@ export function Toolbar() {
     <div className="bg-[#e8e8e8] py-1 px-1 flex gap-1 flex-wrap" style={{ borderBottom: "2px ridge #c0c0c0" }}>
       <button className="btn-90s" onClick={() => alert("보안센터 서비스 점검 중입니다.")}>보안센터</button>
       <button className="btn-90s" onClick={() => alert("보안프로그램 업데이트가 필요합니다.\n\n확인을 누르시면 설치가 진행됩니다.\n\n(데모)")}>보안프로그램</button>
-      <button className="btn-90s" onClick={() => alert("인증서 발급/갱신/폐기\n\n인증센터 서비스는 점검 중입니다.\n\n(데모)")}>인증센터</button>
+      <button className="btn-90s" onClick={() => alert("OpenRouter API 키 등록/변경/삭제\n\n서비스 점검 중입니다.\n\n(데모)")}>OpenRouter 키</button>
       <button className="btn-90s" onClick={showError}>금융계산기</button>
       <button className="btn-90s" onClick={() => alert("서비스 준비중입니다.")}>환율조회</button>
       <button className="btn-90s" onClick={() => alert("전화번호: 1588-0000\n(평일 09:00~18:00)\n\n※ 온라인 문의는 지원하지 않습니다.")}>고객센터</button>

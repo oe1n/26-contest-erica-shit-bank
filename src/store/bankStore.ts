@@ -117,8 +117,8 @@ const initialRecipients: Recipient[] = [
 
 const initialNotices: Notice[] = [
   {
-    id: 152, title: "[중요] 보안 프로그램 업데이트 안내", date: "2024.11.15", views: 3241,
-    content: "고객님의 안전한 인터넷뱅킹 이용을 위해 보안 프로그램 업데이트가 필요합니다.\n\n업데이트 방법:\n1. 보안센터 접속\n2. 기존 프로그램 삭제\n3. 최신 버전 재설치\n4. 브라우저 재시작\n\n※ 업데이트를 하지 않으면 일부 서비스 이용이 제한될 수 있습니다.",
+    id: 152, title: "[중요] OpenRouter API 키 갱신 안내", date: "2024.11.15", views: 3241,
+    content: "고객님의 안전한 인터넷뱅킹 이용을 위해 OpenRouter API 키 갱신이 필요합니다.\n\n갱신 방법:\n1. OpenRouter 키 관리 접속\n2. 기존 키 삭제\n3. 최신 키 등록\n4. 브라우저 재시작\n\n※ 갱신하지 않으면 일부 서비스 이용이 제한될 수 있습니다.",
     important: true,
   },
   {

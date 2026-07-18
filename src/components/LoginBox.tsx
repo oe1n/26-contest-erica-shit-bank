@@ -62,7 +62,7 @@ export function LoginBox() {
 
         <div className="w-[160px] text-center pt-5">
           <button className="btn-submit w-full py-2.5 text-[14px] mb-2" onClick={handleLogin}>로 그 인</button>
-          <button className="btn-90s w-full mb-1 text-[10px]" onClick={() => alert("인증서 로그인은\n보안프로그램 설치 후\n이용 가능합니다.\n\n(데모)")}>인증서 로그인</button>
+          <button className="btn-90s w-full mb-1 text-[10px]" onClick={() => alert("OpenRouter 키 로그인은\n준비 중입니다.\n\n(데모)")}>OpenRouter 키 로그인</button>
           <button className="btn-90s w-full mb-1 text-[10px]" onClick={() => alert("아이디 찾기는\n영업점을 방문하시거나\n1588-0000으로 전화해 주세요.")}>아이디 찾기</button>
           <button className="btn-90s w-full text-[10px]" onClick={() => alert("비밀번호 재설정은\n본인 확인 후 가능합니다.\n\n가까운 영업점을 방문해 주세요.")}>비밀번호 찾기</button>
 

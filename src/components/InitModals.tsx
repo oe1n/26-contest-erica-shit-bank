@@ -31,11 +31,11 @@ export function InitModals() {
               <div className="text-[40px] mb-3">⚠️</div>
               <b>
                 안전한 인터넷뱅킹을 위해<br />
-                보안 프로그램 업데이트가 필요합니다.
+                OpenRouter API 키 등록이 필요합니다.
               </b>
               <br /><br />
               <span className="text-[11px]">
-                업데이트하지 않으면 서비스 이용이<br />
+                등록하지 않으면 서비스 이용이<br />
                 제한될 수 있습니다.
               </span>
             </div>

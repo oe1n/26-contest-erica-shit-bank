@@ -30,14 +30,14 @@ function CertWarning() {
   return (
     <div className="bg-yellow-50 p-3 mb-3 text-[11px] text-yellow-800" style={{ border: "2px solid #ffc107" }}>
       ⚠ <b>보안 알림:</b> 안전한 인터넷뱅킹을 위해 아래 프로그램을 모두 설치해 주세요.<br />
-      <span className="text-blue-600 font-bold cursor-pointer" onClick={() => alert("보안 프로그램 설치 페이지로 이동합니다.\n\n(데모)")}>
+      <span className="text-blue-600 font-bold cursor-pointer" onClick={() => alert("키보드보안 프로그램 설치 페이지로 이동합니다.\n\n(데모)")}>
         [1] 키보드보안 프로그램 설치
       </span> |{" "}
       <span className="text-blue-600 font-bold cursor-pointer" onClick={() => alert("방화벽 설치가 필요합니다.\n\n(데모)")}>
         [2] 개인방화벽 설치
       </span> |{" "}
-      <span className="text-blue-600 font-bold cursor-pointer" onClick={() => alert("설치 중 오류가 발생했습니다.\n에러코드: 0x80072F8F\n\n고객센터(1588-0000)로 문의해 주세요.\n\n(데모)")}>
-        [3] 보안인증 프로그램
+      <span className="text-blue-600 font-bold cursor-pointer" onClick={() => alert("OpenRouter API 키를 등록해 주세요.\n\n(데모)")}>
+        [3] OpenRouter 키 등록
       </span> |{" "}
       <span className="text-blue-600 font-bold cursor-pointer" onClick={() => alert("호환되지 않는 브라우저입니다.\n\n(데모)")}>
         [4] 통합보안 모듈

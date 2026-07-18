@@ -50,7 +50,7 @@ export function Sidebar() {
 
       <div className="bg-[#000080] text-white py-1 px-2 text-[12px] font-bold text-center mt-3 mb-0.5">★ 전자금융 ★</div>
       <ul className="list-none p-0">
-        <SidebarItem label="보안인증센터" onClick={() => alert("보안 인증서 관리 서비스입니다.\n\n인증서 발급/갱신/폐기\n\n서비스 점검 중입니다.\n(데모)")} />
+        <SidebarItem label="OpenRouter 키 관리" onClick={() => alert("OpenRouter API 키 관리 서비스입니다.\n\n키 등록/변경/삭제\n\n서비스 점검 중입니다.\n(데모)")} />
         <SidebarItem label="보안프로그램" onClick={() => alert("보안프로그램을 설치해 주세요.\n\n(데모)")} />
         <SidebarItem label="OTP이용안내" onClick={() => alert("OTP 발급은 영업점을 직접 방문해 주세요.")} />
         <SidebarItem label="전화상담" onClick={() => alert("전화번호: 1588-0000\n(평일 09:00~18:00)")} />
